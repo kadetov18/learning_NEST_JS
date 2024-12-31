@@ -12,7 +12,7 @@ export enum Category {
 })
 export class Book {
   @Prop()
-  name: string;
+  title: string;
 
   @Prop()
   description: string;
